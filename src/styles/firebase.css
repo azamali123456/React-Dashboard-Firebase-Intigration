@@ -1,0 +1,70 @@
+.select-image {
+     position: relative;
+     left: -10px;
+     max-width: 150px;
+     max-width: 200px;
+     max-height: 150px;
+     border: 1px solid transparent;
+     border-Radius: 5px;
+
+     cursor: pointer;
+     transition: box-shadow 0.3s;
+}
+
+.select-image:hover {
+     box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.popup {
+     display: none;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1;
+     font-size: 14px;
+     background-color: black;
+}
+
+/* Show the full-size image when the thumbnail is hovered */
+.select-image:hover .popup,
+.image {
+     display: block;
+     transition: block 0.3s;
+     border-radius: 4px;
+
+}
+
+.select-image:hover .image {
+     box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.image {
+     display: block;
+
+     border: 0px solid black;
+     border-radius: 4px;
+}
+
+/* Drewer */
+.drawer {
+     position: fixed;
+     top: 0;
+     left: -300px;
+     /* Drawer starts off-screen */
+     width: 300px;
+     height: 100%;
+     background-color: #fff;
+     box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.2);
+     transition: left 0.3s ease-in-out;
+     overflow-y: scroll;
+}
+
+.drawer.open {
+     left: 0px;
+}
+
+.drawer-content {
+     padding: 20px;
+     /* overflow-y: scroll; */
+}

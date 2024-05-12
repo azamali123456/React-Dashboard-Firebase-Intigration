@@ -1,0 +1,68 @@
+.project {
+     /* overflow: hidden; */
+     height: 210px;
+     border: 5px solid black;
+     border-Radius: 5px;
+     padding: 10px;
+     margin: 10px;
+     display: flex;
+     background-color: rgba(0, 0, 0, 0.6);
+     /* Use an RGBA color with low opacity */
+     color: white;
+     /* Text color for contrast */
+     border: 1px solid rgba(255, 255, 255, 0.2);
+     /* Optional: Add a subtle border */
+     border-radius: 8px;
+     /* Optional: Rounded corners */
+     padding: 10px;
+     /* Optional: Add padding to the element */
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     /* Optional: Add a shadow effect */
+     transition: background-color 0.3s ease;
+
+     /* tooltip */
+     /* position: relative;
+     display: inline-block; */
+     cursor: pointer;
+}
+
+.project:hover {
+     background-color: rgba(0, 0, 0, 0.8);
+     /* Darken the background color on hover */
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+     /* Enhance the shadow on hover */
+}
+
+.sidebar_button:hover,
+.sidebar_button:active {
+     background-color: #d2d0d0;
+     border: 0px solid white;
+     border-top-Left-radius: 20px;
+     border-bottom-Left-radius: 20px;
+     width: 170%;
+     height: 80%;
+     justify-content: center;
+     align-items: center;
+
+}
+
+/* CartoonCard.css */
+.card {
+     width: 300px;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     overflow: hidden;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     margin: 20px;
+}
+
+.cartoon {
+     /* Style your cartoon character container */
+     /* You can add animations, transforms, etc. to animate your character */
+}
+
+.card-content {
+     padding: 20px;
+}
+
+/* Add more styles as needed for your specific design */

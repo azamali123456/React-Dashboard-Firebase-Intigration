@@ -1,0 +1,97 @@
+[debug] [2023-08-22T07:27:57.667Z] ----------------------------------------------------------------------
+[debug] [2023-08-22T07:27:57.670Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2023-08-22T07:27:57.670Z] CLI Version:   12.4.8
+[debug] [2023-08-22T07:27:57.670Z] Platform:      win32
+[debug] [2023-08-22T07:27:57.671Z] Node Version:  v16.14.0
+[debug] [2023-08-22T07:27:57.672Z] Time:          Tue Aug 22 2023 12:27:57 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-08-22T07:27:57.672Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-22T07:27:57.760Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-22T07:27:57.760Z] > authorizing via signed-in user (imran.afzal@venrup.com)
+[debug] [2023-08-22T07:27:57.761Z] [iam] checking project venleads-backend-c2f93 for permissions ["firebase.projects.get"]
+[debug] [2023-08-22T07:27:57.763Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/venleads-backend-c2f93:testIamPermissions [none]
+[debug] [2023-08-22T07:27:57.763Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/venleads-backend-c2f93:testIamPermissions x-goog-quota-user=projects/venleads-backend-c2f93
+[debug] [2023-08-22T07:27:57.764Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/venleads-backend-c2f93:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-08-22T07:27:59.316Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/venleads-backend-c2f93:testIamPermissions 200
+[debug] [2023-08-22T07:27:59.316Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/venleads-backend-c2f93:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-08-22T07:27:59.329Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-22T07:27:59.331Z] defaultcredentials: writing to file C:\Users\azama\AppData\Roaming\firebase\imran_afzal_venrup.com_application_default_credentials.json
+[debug] [2023-08-22T07:27:59.333Z] DEBUG: Setting GAC to C:\Users\azama\AppData\Roaming\firebase\imran_afzal_venrup.com_application_default_credentials.json
+[debug] [2023-08-22T07:27:59.333Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/venleads-backend-c2f93/adminSdkConfig [none]
+[debug] [2023-08-22T07:27:59.871Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/venleads-backend-c2f93/adminSdkConfig 200
+[debug] [2023-08-22T07:27:59.871Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/venleads-backend-c2f93/adminSdkConfig {"projectId":"venleads-backend-c2f93","storageBucket":"venleads-backend-c2f93.appspot.com"}
+[debug] [2023-08-22T07:27:59.892Z] [functions] Watching "C:\Users\azama\OneDrive\Desktop\React Test Project\firsbase\functions" for Cloud Functions...
+[debug] [2023-08-22T07:27:59.899Z] Validating nodejs source
+[debug] [2023-08-22T07:28:01.593Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-08-22T07:28:01.593Z] Building nodejs source
+[debug] [2023-08-22T07:28:01.594Z] Failed to find version of module node: reached end of search path C:\Users\azama\OneDrive\Desktop\React Test Project\firsbase\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-08-22T07:28:01.597Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-22T07:28:01.603Z] Found firebase-functions binary at 'C:\Users\azama\OneDrive\Desktop\React Test Project\firsbase\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8032
+
+[debug] [2023-08-22T07:28:02.959Z] Got response from /__/functions.yaml {"endpoints":{"getAllUsers":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"getAllUsers"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[debug] [2023-08-22T07:28:02.986Z] [functions] Loaded functions definitions from source: getAllUsers.
+[debug] [2023-08-22T07:28:02.988Z] [functions[us-central1-getAllUsers]] http function initialized (http://127.0.0.1:5000/venleads-backend-c2f93/us-central1/getAllUsers).
+[info] i  functions: Loaded functions: getAllUsers 
+[warn] !  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub, storage, eventarc 
+[debug] [2023-08-22T07:28:56.057Z] DEBUG: File C:\Users\azama\OneDrive\Desktop\React Test Project\firsbase\functions\package-lock.json changed, reloading triggers
+[debug] [2023-08-22T07:28:57.075Z] Validating nodejs source
+[debug] [2023-08-22T07:28:58.978Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-08-22T07:28:58.979Z] Building nodejs source
+[debug] [2023-08-22T07:28:58.979Z] Failed to find version of module node: reached end of search path C:\Users\azama\OneDrive\Desktop\React Test Project\firsbase\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "16". Using node@16 from host. 
+[debug] [2023-08-22T07:28:58.982Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-22T07:28:58.991Z] Found firebase-functions binary at 'C:\Users\azama\OneDrive\Desktop\React Test Project\firsbase\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8083
+
+[debug] [2023-08-22T07:28:59.786Z] Got response from /__/functions.yaml {"endpoints":{"getAllUsers":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"getAllUsers"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[debug] [2023-08-22T07:28:59.813Z] [functions] Loaded functions definitions from source: getAllUsers.

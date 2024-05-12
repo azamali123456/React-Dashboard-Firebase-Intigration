@@ -1,0 +1,50 @@
+[debug] [2024-04-21T14:33:23.271Z] ----------------------------------------------------------------------
+[debug] [2024-04-21T14:33:23.273Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-21T14:33:23.273Z] CLI Version:   13.7.3
+[debug] [2024-04-21T14:33:23.273Z] Platform:      win32
+[debug] [2024-04-21T14:33:23.274Z] Node Version:  v18.17.1
+[debug] [2024-04-21T14:33:23.275Z] Time:          Sun Apr 21 2024 19:33:23 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-04-21T14:33:23.275Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-21T14:33:23.360Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-21T14:33:23.360Z] > authorizing via signed-in user (imran.afzal@venrup.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\My Projects\React Dashboard Firebase Intigration
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2024-04-21T14:34:17.056Z] ----------------------------------------------------------------------
+[debug] [2024-04-21T14:34:17.058Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-21T14:34:17.058Z] CLI Version:   13.7.3
+[debug] [2024-04-21T14:34:17.059Z] Platform:      win32
+[debug] [2024-04-21T14:34:17.059Z] Node Version:  v18.17.1
+[debug] [2024-04-21T14:34:17.060Z] Time:          Sun Apr 21 2024 19:34:17 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-04-21T14:34:17.060Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-21T14:34:17.134Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-21T14:34:17.135Z] > authorizing via signed-in user (imran.afzal@venrup.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\My Projects\React Dashboard Firebase Intigration
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
